@@ -1,0 +1,36 @@
+
+#viewport {
+    width:80%;
+    margin:10%;
+}
+
+header, footer {
+    background-color:yellow;
+    height:100px;
+    width:100%;
+}
+
+nav{
+    background-color:cyan;
+    width:20%;
+}
+
+article{
+    background-color:greenyellow;
+    width:60%;
+}
+
+aside{
+    background-color:darkcyan;
+    width:20%;
+}
+
+nav, article, aside {
+    height:150px;
+    float:left;
+}
+
+header, footer {
+    width:100%;
+    float:left;
+}
